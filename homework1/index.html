@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CS391 HW1</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ebd9b65559.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap 5 Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">gufran</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Our Mission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#grading">Grading</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#form">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Jumbotron header that you are looking for.</h1>
+            <button type="button" class="btn btn-lg btn-dark download-button">
+              <i class="fa-brands fa-apple"></i> iOS
+            </button>
+            <button
+              type="button"
+              class="btn btn-lg btn-outline-light download-button"
+            >
+              <i class="fa-brands fa-google-play"></i> Android
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-image"
+              src="images/pixlr-bg-result-edit.png"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fa-solid fa-circle-check fa-5x"></i>
+          <h3>Jumbotron</h3>
+          <p>A Jumbotron Header (Actually removed with Bootstrap 5).</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fa-solid fa-spell-check fa-5x"></i>
+          <h3>Form</h3>
+          <p>At least one form.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fa-solid fa-heart fa-5x"></i>
+          <h3>Button</h3>
+          <p>At least one button.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fa-solid fa-image fa-5x"></i>
+          <h3>Image</h3>
+          <p>At least one responsive image.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fa-solid fa-bullseye fa-5x"></i>
+          <h3>Breakpoints</h3>
+          <p>
+            At least three breakpoints. Bootstrap grid system to structure or
+            layout the page.
+          </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fa-brands fa-bootstrap fa-5x"></i>
+          <h3>Bootstrap</h3>
+          <p>Use Bootstrap’s components for every element.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="testimonials-corousel"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              He designed this website in his dorm room in 869 hours. He
+              definitely deserves a good grade.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/barkin.jpg"
+              alt="barkin-profile"
+            />
+            <em>Barkin, Roommate</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              He didn't even celebrate my birthday so he could do the homework.
+              This dedication deserves a round of applause.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/ala.jpg"
+              alt="ala-profile"
+            />
+            <em>Alanur, Mom</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">He ain't simping. Just hard work.</h2>
+            <img
+              class="testimonial-image"
+              src="images/murat.jpg"
+              alt="murat-profile"
+            />
+            <em>Murat, Boss</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              He beat me at chess while he is designing this website. So cool!
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/damla.jpeg"
+              alt="damla-profile"
+            />
+            <em>Damla, NPC</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonials-corousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonials-corousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Grading -->
+
+    <section id="grading">
+      <h2>A Plan for Every Student's Grade</h2>
+      <p>Simple and affordable grade plans for you and your students.</p>
+
+      <div class="row">
+        <div class="grading-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Party</h3>
+            </div>
+            <div class="card-body">
+              <h2>0-20</h2>
+              <p>5 Parties Per Day</p>
+              <p>10 Drinks Per Day</p>
+              <p>Forgot Homework</p>
+              <p class="invisible">dummy text</p>
+              <button
+                class="btn btn-lg btn-outline-dark btn-block"
+                type="button"
+              >
+                Nope
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="grading-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Lazy</h3>
+            </div>
+            <div class="card-body">
+              <h2>20-80</h2>
+              <p>5 Games Per Day</p>
+              <p>Procrastination</p>
+              <p>Left Homework to the last day</p>
+              <p class="invisible">dummy text</p>
+              <button class="btn btn-lg btn-dark btn-block" type="button">
+                Meh
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="grading-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Gufran</h3>
+            </div>
+            <div class="card-body">
+              <h2>100</h2>
+              <p>5 Research Per Day</p>
+              <p>Hard Work</p>
+              <p>Best Effort</p>
+              <p>Masterpiece Homework</p>
+              <button class="btn btn-lg btn-dark btn-block" type="button">
+                Cool
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="form">
+      <h1>Send a mail to Gufran!</h1>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Message</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+      <button class="btn btn-lg btn-light form-button" type="button">
+        <i class="fa-solid fa-paper-plane"></i> Send
+      </button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="footer-icon fa-brands fa-twitter"></i>
+      <i class="footer-icon fa-brands fa-facebook-f"></i>
+      <i class="footer-icon fa-brands fa-instagram"></i>
+      <i class="footer-icon fa-solid fa-envelope"></i>
+      <p>© Copyright 2022 Gufran</p>
+    </footer>
+  </body>
+</html>
